@@ -10,6 +10,7 @@ import store from './redux/store'
 import register from './containers/register/register'
 import login from './containers/login/login'
 import main from './containers/main/main'
+import './assets/index.less'
 ReactDOM.render((
   <Provider store={store}>
     <HashRouter>
